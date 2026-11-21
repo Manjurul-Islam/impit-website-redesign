@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IMPIT — Your Property Preservation Partner Across All 50 States</title>
+  <meta name="description" content="IMPIT manages a vetted network of local vendors so mortgage servicers get consistent, compliant property preservation — without managing the vendors themselves." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/hero-bg.png" />
+  <link rel="prefetch" as="image" href="assets/hero-2.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ===== Fixed nav bar (110:37) + dropdown menu ===== -->
+  <div class="scrim" id="scrim" aria-hidden="true"></div>
+  <header class="topbar" id="topbar">
+    <div class="topbar__bar">
+      <div class="topbar__row">
+        <a class="topbar__logo" href="#top" aria-label="IMPIT home"><img src="assets/abstract-logo.svg" width="40" height="40" alt="" /></a>
+        <a class="topbar__title" href="#about">we are impit</a>
+        <button class="topbar__menu" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="nav" id="menu" aria-hidden="true" inert>
+        <nav class="nav__inner" aria-label="Main">
+          <ul class="nav__list">
+            <li style="--i:0"><a href="#about" data-close><span>About iPMIT</span><svg class="nav__dots" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><rect x="10" y="0" width="3" height="3"/><rect x="5" y="0" width="3" height="3"/><rect x="10" y="5" width="3" height="3"/><rect x="5" y="5" width="3" height="3" class="d2"/><rect x="0" y="10" width="3" height="3" class="d3"/></svg></a></li>
+            <li style="--i:1"><a href="#services" data-close><span>Our services</span><svg class="nav__dots" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><rect x="10" y="0" width="3" height="3"/><rect x="5" y="0" width="3" height="3"/><rect x="10" y="5" width="3" height="3"/><rect x="5" y="5" width="3" height="3" class="d2"/><rect x="0" y="10" width="3" height="3" class="d3"/></svg></a></li>
+            <li style="--i:2"><a href="#why" data-close><span>Why choose us</span><svg class="nav__dots" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><rect x="10" y="0" width="3" height="3"/><rect x="5" y="0" width="3" height="3"/><rect x="10" y="5" width="3" height="3"/><rect x="5" y="5" width="3" height="3" class="d2"/><rect x="0" y="10" width="3" height="3" class="d3"/></svg></a></li>
+            <li style="--i:3"><a href="#leaders" data-close><span>Company leaders</span><svg class="nav__dots" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><rect x="10" y="0" width="3" height="3"/><rect x="5" y="0" width="3" height="3"/><rect x="10" y="5" width="3" height="3"/><rect x="5" y="5" width="3" height="3" class="d2"/><rect x="0" y="10" width="3" height="3" class="d3"/></svg></a></li>
+            <li style="--i:4"><a href="#career" data-close><span>Career</span><svg class="nav__dots" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><rect x="10" y="0" width="3" height="3"/><rect x="5" y="0" width="3" height="3"/><rect x="10" y="5" width="3" height="3"/><rect x="5" y="5" width="3" height="3" class="d2"/><rect x="0" y="10" width="3" height="3" class="d3"/></svg></a></li>
+            <li style="--i:5"><a href="#contact" data-close><span>Contact</span><svg class="nav__dots" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><rect x="10" y="0" width="3" height="3"/><rect x="5" y="0" width="3" height="3"/><rect x="10" y="5" width="3" height="3"/><rect x="5" y="5" width="3" height="3" class="d2"/><rect x="0" y="10" width="3" height="3" class="d3"/></svg></a></li>
+          </ul>
+          <div class="nav__ctas" style="--i:6">
+            <a class="nav__btn nav__btn--ghost" href="#" data-close>show pitchdeck</a>
+            <div class="nav__pair nav__mobile-only">
+              <a class="nav__btn nav__btn--vendor" href="#contact" data-close>request vendor</a>
+              <a class="nav__btn nav__btn--coverage" href="#about" data-close>see our coverage</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="actions" id="actions">
+      <a class="btn btn--orange actions__vendor" href="#contact">request vendor</a>
+      <a class="btn btn--grey actions__coverage" href="#about">see our coverage</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO (110:6) ===== -->
+    <section class="hero" id="top" aria-roledescription="carousel" aria-label="Hero">
+      <div class="hero__media" id="heroMedia">
+        <div class="hero__slide is-active" data-slide="0"><div class="hero__box"><img src="assets/hero-bg.png" alt="" /></div></div>
+        <div class="hero__slide" data-slide="1"><div class="hero__box"><img src="assets/hero-2.jpg" alt="IMPIT team meeting around a conference table" decoding="async" /></div></div>
+        <div class="hero__slide" data-slide="2"><div class="hero__box"><img src="assets/hero-3.jpg" alt="IMPIT leadership discussing in a bright boardroom" decoding="async" /></div></div>
+        <div class="hero__slide" data-slide="3"><div class="hero__box"><img src="assets/hero-4.jpg" alt="Executives reviewing reports in a meeting room" decoding="async" /></div></div>
+      </div>
+      <div class="hero__shade"></div>
+
+      <div class="hero__inner wrap">
+        <div class="hero__top">
+          <div class="hero__counter">
+            <p class="hero__count" aria-live="polite"><span class="hero__cur" id="heroCur">2</span><span> / 4</span></p>
+            <div class="hero__dots" role="tablist" aria-label="Slides">
+              <button role="tab" aria-label="Slide 1"></button>
+              <button role="tab" aria-label="Slide 2"></button>
+              <button role="tab" aria-label="Slide 3"></button>
+              <button role="tab" aria-label="Slide 4"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__content">
+          <div class="hero__head">
+            <p class="label label--muted hero__kicker" data-hero>// Property Preservation, Done at Scale //</p>
+            <h1 class="hero__title" data-hero>Your Property Preservation Partner Across All 50 States.</h1>
+          </div>
+          <p class="hero__lead" data-hero>IMPIT manages a vetted network of local vendors so mortgage servicers get consistent, compliant property preservation — without managing the vendors themselves.</p>
+        </div>
+
+        <div class="hero__foot" data-hero>
+          <ul class="hero__links">
+            <li><a href="#contact">faq</a></li>
+            <li><a href="#contact">support</a></li>
+            <li><a href="#contact">message</a></li>
+            <li><a href="#contact">hotline</a></li>
+          </ul>
+          <ul class="social">
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">linkedin<img src="assets/arrow-up-right.svg" width="24" height="24" alt="" /></a></li>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener">facebook<img src="assets/arrow-up-right.svg" width="24" height="24" alt="" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRUSTED LOGOS (110:61) ===== -->
+    <section class="logos" aria-label="Clients">
+      <div class="logos__inner wrap">
+        <p class="logos__text">Trusted by 1,500+ commercial contractors across North America</p>
+        <div class="logos__viewport">
+          <div class="logos__track">
+            <img src="assets/logo1.svg" width="200" height="100" alt="Logoipsum" />
+            <img src="assets/logo2.svg" width="200" height="100" alt="Logoipsum" />
+            <img src="assets/logo3.svg" width="200" height="100" alt="Logoipsum" />
+            <img src="assets/logo4.svg" width="200" height="100" alt="Logoipsum" />
+            <img src="assets/logo5.svg" width="200" height="100" alt="Logoipsum" />
+            <img src="assets/logo6.svg" width="200" height="100" alt="Logoipsum" />
+            <img src="assets/logo1.svg" width="200" height="100" alt="" aria-hidden="true" />
+            <img src="assets/logo2.svg" width="200" height="100" alt="" aria-hidden="true" />
+            <img src="assets/logo3.svg" width="200" height="100" alt="" aria-hidden="true" />
+            <img src="assets/logo4.svg" width="200" height="100" alt="" aria-hidden="true" />
+            <img src="assets/logo5.svg" width="200" height="100" alt="" aria-hidden="true" />
+            <img src="assets/logo6.svg" width="200" height="100" alt="" aria-hidden="true" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHO CHOOSE US (110:145) ===== -->
+    <section class="why section wrap" id="why">
+      <p class="label" data-reveal>// who choose us //</p>
+      <div class="why__grid">
+        <h2 class="h2 why__title" data-reveal>Trusted by Wells Fargo, LoanCare, Mid America Mortgage &amp; more</h2>
+
+        <article class="stat stat--lg" data-reveal>
+          <img class="stat__bg" src="assets/card-yellow.svg" alt="" />
+          <p class="stat__tag"><img src="assets/ic-repository.svg" width="24" height="24" alt="" />Proven Expertise</p>
+          <div class="stat__body">
+            <p class="stat__num"><span data-count="40" data-suffix="K+">40K+</span></p>
+            <p class="stat__cap">Projects Completed Efficiently</p>
+          </div>
+        </article>
+
+        <div class="why__pair">
+          <article class="stat" data-reveal>
+            <img class="stat__bg" src="assets/card-pink.svg" alt="" />
+            <p class="stat__tag"><img src="assets/ic-agreement.svg" width="24" height="24" alt="" />Trusted Stewardship</p>
+            <div class="stat__body">
+              <p class="stat__num"><span data-count="10" data-suffix="K">10K</span></p>
+              <p class="stat__cap">Under Maintenance</p>
+            </div>
+          </article>
+          <article class="stat" data-reveal style="--d:.1s">
+            <img class="stat__bg" src="assets/card-cyan.svg" alt="" />
+            <p class="stat__tag"><img src="assets/ic-location.svg" width="24" height="24" alt="" />Nationwide Reach</p>
+            <div class="stat__body">
+              <p class="stat__num"><span data-count="50" data-suffix=" States">50 States</span></p>
+              <p class="stat__cap">One Point Contact</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="why__note" data-reveal>
+          <p class="why__lead">All in real time, capture leads, tracks, performance, and scale winning strategies.</p>
+          <div class="rating">
+            <div class="rating__faces">
+              <img src="assets/avatar1.png" width="72" height="72" alt="Client" />
+              <img src="assets/avatar2.png" width="72" height="72" alt="Client" />
+              <img src="assets/avatar3.png" width="72" height="72" alt="Client" />
+            </div>
+            <p class="rating__text"><strong>Rated 4.8/5</strong><span>Trusted by Clients</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== OUR SERVICES (110:374) ===== -->
+    <section class="services" id="services">
+      <div class="wrap services__head">
+        <p class="label" data-reveal>// our services //</p>
+        <h2 class="h2 services__title" data-reveal>A Single Trusted Partner From Inspection to Renovation</h2>
+      </div>
+
+      <div class="acc" id="acc">
+        <!-- item template repeated -->
+        <div class="acc__item is-open" style="--bg:#0a0a09">
+          <div class="wrap">
+            <button class="acc__head" aria-expanded="true" aria-controls="acc-p1" id="acc-h1">
+              <span class="acc__num">01</span>
+              <span class="acc__name">Property Reservation</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc__panel" id="acc-p1" role="region" aria-labelledby="acc-h1">
+              <div class="acc__body">
+                <div class="acc__text">
+                  <p class="acc__desc">We provide reliable property services that protect, maintain, and improve your investment. From inspections and routine maintenance to repairs and renovations, our experienced team ensures every project is completed with quality and care.</p>
+                  <a class="btn btn--orange" href="#contact">talk to our team</a>
+                  <ul class="tags">
+                    <li>property inspection</li><li>maintenance &amp; repair</li><li>renovation services</li><li>property preservation</li><li>emergency services</li>
+                  </ul>
+                </div>
+                <div class="acc__media"><img src="assets/svc-house.png" alt="Model house with keys on a table" loading="lazy" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="acc__item" style="--bg:#121210">
+          <div class="wrap">
+            <button class="acc__head" aria-expanded="false" aria-controls="acc-p2" id="acc-h2">
+              <span class="acc__num">02</span>
+              <span class="acc__name">Renovation &amp; Repair</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc__panel" id="acc-p2" role="region" aria-labelledby="acc-h2">
+              <div class="acc__body">
+                <div class="acc__text">
+                  <p class="acc__desc">We provide reliable property services that protect, maintain, and improve your investment. From inspections and routine maintenance to repairs and renovations, our experienced team ensures every project is completed with quality and care.</p>
+                  <a class="btn btn--orange" href="#contact">talk to our team</a>
+                  <ul class="tags">
+                    <li>property inspection</li><li>maintenance &amp; repair</li><li>renovation services</li><li>property preservation</li><li>emergency services</li>
+                  </ul>
+                </div>
+                <div class="acc__media"><img src="assets/svc-house.png" alt="" loading="lazy" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="acc__item" style="--bg:#171715">
+          <div class="wrap">
+            <button class="acc__head" aria-expanded="false" aria-controls="acc-p3" id="acc-h3">
+              <span class="acc__num">03</span>
+              <span class="acc__name">Residential Inspection</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc__panel" id="acc-p3" role="region" aria-labelledby="acc-h3">
+              <div class="acc__body">
+                <div class="acc__text">
+                  <p class="acc__desc">We provide reliable property services that protect, maintain, and improve your investment. From inspections and routine maintenance to repairs and renovations, our experienced team ensures every project is completed with quality and care.</p>
+                  <a class="btn btn--orange" href="#contact">talk to our team</a>
+                  <ul class="tags">
+                    <li>property inspection</li><li>maintenance &amp; repair</li><li>renovation services</li><li>property preservation</li><li>emergency services</li>
+                  </ul>
+                </div>
+                <div class="acc__media"><img src="assets/svc-house.png" alt="" loading="lazy" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="acc__item" style="--bg:#1c1c19">
+          <div class="wrap">
+            <button class="acc__head" aria-expanded="false" aria-controls="acc-p4" id="acc-h4">
+              <span class="acc__num">04</span>
+              <span class="acc__name">Maintenance Programs</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc__panel" id="acc-p4" role="region" aria-labelledby="acc-h4">
+              <div class="acc__body">
+                <div class="acc__text">
+                  <p class="acc__desc">We provide reliable property services that protect, maintain, and improve your investment. From inspections and routine maintenance to repairs and renovations, our experienced team ensures every project is completed with quality and care.</p>
+                  <a class="btn btn--orange" href="#contact">talk to our team</a>
+                  <ul class="tags">
+                    <li>property inspection</li><li>maintenance &amp; repair</li><li>renovation services</li><li>property preservation</li><li>emergency services</li>
+                  </ul>
+                </div>
+                <div class="acc__media"><img src="assets/svc-house.png" alt="" loading="lazy" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHO WE ARE (110:316) ===== -->
+    <section class="who section wrap" id="about">
+      <p class="label" data-reveal>// who we are //</p>
+      <div class="who__grid">
+        <div class="who__left">
+          <h2 class="h2 who__title" data-reveal>Built for servicers who can't afford vendor headaches</h2>
+          <a class="btn btn--dark" href="#leaders" data-reveal>learn more</a>
+          <figure class="who__img who__img--sm" data-reveal-img><img src="assets/who-handshake.png" alt="Handshake over a model house" loading="lazy" /></figure>
+        </div>
+        <figure class="who__img who__img--lg" data-reveal-img><img src="assets/who-team.png" alt="IMPIT team discussing in an office corridor" loading="lazy" /></figure>
+        <p class="who__lead" data-reveal>Backed by strong leadership and deep expertise, IMPIT has completed over 40,000 projects and manages 10,000+ properties, always customizing services to exceed client needs.</p>
+      </div>
+
+      <div class="feats">
+        <article class="feat" data-reveal>
+          <img class="feat__bg" src="assets/feat-yellow.svg" alt="" />
+          <div class="feat__icon feat__icon--4" aria-hidden="true">
+            <img src="assets/shape4-a.svg" alt="" class="s4a" />
+            <img src="assets/shape4-b.svg" alt="" class="s4b" />
+          </div>
+          <div class="feat__body">
+            <p class="feat__num">01</p>
+            <h3 class="feat__title">State by State Coverage</h3>
+            <p class="feat__text">Local vendors in every market, managed under one national standard.</p>
+          </div>
+        </article>
+        <article class="feat" data-reveal style="--d:.1s">
+          <img class="feat__bg" src="assets/feat-pink.svg" alt="" />
+          <div class="feat__icon" aria-hidden="true"><img src="assets/shape7.svg" alt="" width="100" height="100" /></div>
+          <div class="feat__body">
+            <p class="feat__num">02</p>
+            <h3 class="feat__title">Consistent turnaround</h3>
+            <p class="feat__text">Clear timelines and status updates, order to completion.</p>
+          </div>
+        </article>
+        <article class="feat" data-reveal style="--d:.2s">
+          <img class="feat__bg" src="assets/feat-cyan.svg" alt="" />
+          <div class="feat__icon feat__icon--19" aria-hidden="true"><img src="assets/shape19.svg" alt="" /></div>
+          <div class="feat__body">
+            <p class="feat__num">03</p>
+            <h3 class="feat__title">Compliance first</h3>
+            <p class="feat__text">Work executed to investor and insurer requirements, every time.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== LEADERS (110:211) ===== -->
+    <section class="leaders section wrap" id="leaders">
+      <header class="leaders__head">
+        <p class="label" data-reveal>// company leaders //</p>
+        <h2 class="h2" data-reveal>Message from the leaders of IMPIT</h2>
+      </header>
+      <div class="leaders__grid" data-active="0">
+        <div class="leaders__pics" role="tablist" aria-label="Choose a leader" data-reveal>
+          <button class="leader is-active" role="tab" aria-selected="true" aria-controls="leaderCard" data-leader="0" data-slot="a">
+            <span class="leader__frame"><img src="assets/leader-main.png" width="432" height="432" alt="Rifad Saifur Rahman" loading="lazy" /></span>
+          </button>
+          <button class="leader" role="tab" aria-selected="false" aria-controls="leaderCard" data-leader="1" data-slot="b">
+            <span class="leader__frame"><img src="assets/leader-small.png" data-color-src="assets/leader-2-color.jpg" alt="Second IMPIT leader" loading="lazy" /></span>
+          </button>
+        </div>
+        <article class="leaders__card" id="leaderCard" role="tabpanel" aria-live="polite" data-reveal>
+          <div class="leaders__swap" id="leaderSwap">
+            <blockquote class="leaders__quote">As the CEO of IMPIT, I am honoured to lead our team of dedicated professionals who are committed to excellence in mortgage property services.</blockquote>
+            <p class="leaders__text">We strive to exceed client expectations and deliver solutions that drive success. With a strong vision and a passion for continuous improvement, we are determined to make a positive impact in the market and create lasting value for our clients. I believe it is a great opportunity to purchase a fast-paced and sophisticated career in this industry with IMPIT.&nbsp; Thank you for choosing IMPIT as your trusted partner.</p>
+            <p class="leaders__sign"><strong>Rifad Saifur Rahman</strong><span>CEO and Chairman</span></p>
+          </div>
+          <img class="leaders__mark" src="assets/quote.svg" width="312" height="228" alt="" />
+        </article>
+        <!-- Leader messages. Index 1 is PLACEHOLDER copy — the Figma file only contains the CEO's message. -->
+        <script type="application/json" id="leadersData">[
+          {"quote":"As the CEO of IMPIT, I am honoured to lead our team of dedicated professionals who are committed to excellence in mortgage property services.","text":"We strive to exceed client expectations and deliver solutions that drive success. With a strong vision and a passion for continuous improvement, we are determined to make a positive impact in the market and create lasting value for our clients. I believe it is a great opportunity to purchase a fast-paced and sophisticated career in this industry with IMPIT.\u00a0 Thank you for choosing IMPIT as your trusted partner.","name":"Rifad Saifur Rahman","role":"CEO and Chairman"},
+          {"quote":"Every property we touch is a promise kept — to the servicers who trust us and the communities those homes belong to.","text":"Our operations team works hand in hand with a vetted vendor network in all 50 states, so every order is executed to one national standard. We measure ourselves on turnaround, compliance and clear communication from order to completion. Thank you for choosing IMPIT as your trusted partner.","name":"Leader Name","role":"Managing Director"}
+        ]</script>
+      </div>
+    </section>
+
+    <!-- ===== CTA + FOOTER (110:225) ===== -->
+    <section class="cta" id="career">
+      <div class="cta__bg" aria-hidden="true"><img id="ctaImg" src="assets/cta-bg.png" alt="" loading="lazy" /></div>
+      <div class="cta__shade" aria-hidden="true"></div>
+      <div class="cta__inner wrap">
+        <p class="cta__intro" data-reveal>An organization dedicated to producing excellence</p>
+        <div class="cta__cols">
+          <div class="cta__col" data-reveal>
+            <h2 class="cta__title">Reliable &amp; flexible work.<br />On-time pay.</h2>
+            <a class="btn btn--orange" href="#contact">view career</a>
+          </div>
+          <div class="cta__col" id="contact" data-reveal style="--d:.1s">
+            <h2 class="cta__title">do you have any questions? contact us.</h2>
+            <a class="btn btn--grey" href="mailto:info@impitbd.com">schedule a call</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__rule"></div>
+      <div class="footer__grid">
+        <div class="fcol" data-reveal>
+          <a class="footer__top" href="#top" id="toTop">back to top<img src="assets/arrow-up.svg" width="24" height="24" alt="" /></a>
+        </div>
+        <div class="fcol" data-reveal style="--d:.05s">
+          <p class="fcol__h">office location</p>
+          <p class="fline fline--top"><img src="assets/ic-office.svg" width="24" height="24" alt="" /><span>IMPIT LTD, 6th Floor,<br />House-262/263,<br />1229 Rd No 1, Dhaka 1229</span></p>
+        </div>
+        <div class="fcol" data-reveal style="--d:.1s">
+          <p class="fcol__h">contact info</p>
+          <a class="fline" href="mailto:info@impitbd.com"><img src="assets/ic-mail.svg" width="24" height="24" alt="" /><span>info@impitbd.com</span></a>
+          <a class="fline" href="tel:+8801234567890"><img src="assets/ic-phone.svg" width="24" height="24" alt="" /><span>+88 01234-567890</span></a>
+        </div>
+        <div class="fcol" data-reveal style="--d:.15s">
+          <p class="fcol__h">sitemap</p>
+          <ul class="sitemap">
+            <li><a href="#about">About iPMIT</a></li>
+            <li><a href="#services">Our services</a></li>
+            <li><a href="#leaders">News &amp; Events</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#contact">FAQs</a></li>
+            <li><a href="#why">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="fcol" data-reveal style="--d:.2s">
+          <p class="fcol__h">follow us</p>
+          <ul class="social social--col">
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">linkedin<img src="assets/arrow-up-right.svg" width="24" height="24" alt="" /></a></li>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener">facebook<img src="assets/arrow-up-right.svg" width="24" height="24" alt="" /></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p>© 2026 Impit. All Rights Reserved.</p>
+        <p class="footer__credit"><span>Designed &amp; Developed by</span> <b>MANJURUL ISLAM</b></p>
+      </div>
+    </div>
+    <div class="footer__brand" aria-hidden="true">
+      <p class="footer__word" id="brandWord">ipmit</p>
+      <div class="footer__fade"></div>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
